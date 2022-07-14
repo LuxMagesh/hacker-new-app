@@ -1,0 +1,11 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#B45309] text-gray-300;
+        /* @apply bg-[#1E3A8A] text-gray-300; */
+    }
+}
